@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset = "UTF-8">
+        <title>Drawing App</title>
+    </head>
+    <body>
+        <main><center>
+          <h1>Drawing App</h1>
+          <section>
+            <h2 class="2">Art Photos</h2>
+            <p>Click here to view more <a target="_blank" href="https://www.pinterest.com/"> Art Photos</a>.</p>
+            <a href="https://www.pinterest.com/"><img src="https://i.pinimg.com/550x/c5/0b/b8/c50bb8bd318b290b30f839aafba475da.jpg" alt=" The Great Wave"></a>
+          </section>
+          <!-- Art Lists -->
+          <section>
+            <h2 class="2" id="colorful"><b>Art Lists</b></h2>
+            <h3>Top Art Meduims:</h3>
+            <div class="container">
+            <il class="myUL" >
+              <li>Oil Paints</li>
+              <li>Charcoal</li>
+              <li>Markers</li>
+            </il>
+            <h3>Famous artworks:</h3>
+            <il class="myUL">
+              <li>The Starry Night</li>
+              <li>Mona Lisa</li>
+              <li>American Gothic</li>
+              <li>The Last Supper</li>
+              <li>Girl with a Pearl Earring</li>
+            </il>
+            </div>
+            <br>
+            <!-- Images w/ Captions -->
+            <figure>
+              <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/eb5093ca-2c97-4776-a545-e56253b01d52/daaty9r-22a77552-ceb4-4e7f-ac4c-4f50b27289fa.jpg/v1/fill/w_622,h_350,q_70,strp/wip_wednesday_by_destinyblue_daaty9r-350t.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzYzIiwicGF0aCI6IlwvZlwvZWI1MDkzY2EtMmM5Ny00Nzc2LWE1NDUtZTU2MjUzYjAxZDUyXC9kYWF0eTlyLTIyYTc3NTUyLWNlYjQtNGU3Zi1hYzRjLTRmNTBiMjcyODlmYS5qcGciLCJ3aWR0aCI6Ijw9MTM1NyJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.hF1dSHVxBlv-H1d5NNur9-1-AkIlUWGpGP7NjHpJt3w" alt="A WIP">
+              <figcaption>When artist don't finish their artwork it is called a <em>WIP</em> or a work in progress.</figcaption>
+              <figcaption>*<em>This art was not made by me. Follow the artist on </em><a target="_blank" href="https://www.deviantart.com/destinyblue">Deviant Art</a>.*</figcaption>  
+            </figure>
+            <br>
+            <figure>
+              <img src="https://rochester.kidsoutandabout.com/sites/default/files/digitalartadvanced.jpg" alt="digital art">
+              <figcaption>There are <strong>many</strong> different types of arts. The photo above is a digital piece of art. </figcaption>  
+            </figure>
+          </section>
+        </center>
+          <center>
+          <section id="form">
+              <!-- Art Form -->
+            <h2>Artist Art Form</h2>
+            <form action="https://freecatphotoapp.com/submit-cat-photo">
+                <fieldset>
+                    <legend>Did it take hours, days, months, or years?</legend>
+                    <label><input id="hours" type="radio" name="time" value="hours" checked> Hours </label>
+                    <label><input id="days" type="radio" name="time" value="days" checked> Days </label>
+                    <label><input id="months" type="radio" name="time" value="months" checked> Months </label>
+                    <label><input id="years" type="radio" name="time" value="years"> Years </label>
+                </fieldset>
+              <fieldset>
+                <legend>How many hours, days, months, or years did it take?</legend>
+                <label><input id="1_2" type="radio" name="numbers" value="1_2" checked> 1 - 2 </label>
+                <label><input id="3_4" type="radio" name="numbers" value="3_4"> 3 - 4 </label>
+                <label><input id="5_6" type="radio" name="numbers" value="5_6"> 5 - 6 </label>
+                <label><input id="7" type="radio" name="numbers" value="7"> 7+ </label>
+              </fieldset>
+              <fieldset>
+                <legend>What meduim(s) did you use?</legend>
+                <input id="paint" type="checkbox" name="meduims" value="paint"> <label for="paint">Paint</label>
+                <input id="pencil" type="checkbox" name="meduims" value="pencil"> <label for="pencil">Pencil</label>
+                <input id="oilpaint" type="checkbox" name="mediums" value="oilpaint"> <label for="oilpaint">Oil Paint</label>
+                <input id="marker" type="checkbox" name="meduims" value="marker"> <label for="marker">Marker</label>
+                <input id="penAndink" type="checkbox" name="meduims" value="penAndink"> <label for="penAndink">Pen and Ink</label>
+                <input id="digital" type="checkbox" name="meduims" value="digital"> <label for="digital">Digital</label>
+                <input id="other" type="checkbox" name="meduims" value="other"> <label for="other">Other</label>
+              </fieldset>
+              <br>
+              <input type="text" name="artphotourl" placeholder=" Enter Art Photo URL" required>
+              <h3 class="2"> Please enter Email to get notifications for updates</h3>
+              <input type="text" name="email" placeholder=" Enter Email">
+              <button type="submit">Submit</button>
+            </form>
+          </section>
+        </center>
+        </main>
+        <center>
+        <footer id="footer" >
+          <p>
+            No Copyright - <a href="https://www.freecodecamp.org">freeCodeCamp.org</a>
+          </p>
+        </footer>
+    </center>
+      </body>
+</html>
